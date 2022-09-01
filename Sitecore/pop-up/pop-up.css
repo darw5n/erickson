@@ -1,0 +1,215 @@
+#popup-id {
+    position: fixed;
+    /* position: -webkit-sticky;
+    position: sticky; */
+    /* right: 0; */
+    top: 50%;
+    left: 50%;
+    margin: auto 2rem;
+    max-width: 32rem;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+    z-index: 99999;
+    background-color: transparent;
+    overflow-x: hidden;
+    background: #fff;
+    text-align: left;
+    border-radius: 1rem;
+    margin: 0 auto;
+    max-height: 95%;
+    overflow: hidden;
+    color: #505050;
+}
+
+#popup-id .cta {
+    max-width: 60%;
+}
+
+#popup-id .desc {
+    font-size: 1.2rem;
+    font-family: freightDisp;
+    line-height: 1.6rem;
+}
+
+#popup-id .discl {
+    font-size: .9rem;
+    font-family: freightDisp;
+    line-height: 1.2rem;
+    color: #a5a5a5;
+}
+
+#popup-id hr {
+    width: 100px;
+    border-top: 2px solid #2e788f;
+    margin: 1rem auto;
+}
+
+/* ------------  ------------ */
+
+#popup-id a {
+    color: #007eb4;
+    text-decoration: none;
+}
+
+#popup-id a:hover {
+    text-decoration: underline;
+}
+
+#popup-id h3 {
+    /* color:#333; */
+    /* color: #2e788f; */
+    color: #515ed5;
+}
+
+#popup-id .lottie-stile {
+    max-height: 180px;
+    margin: 0 auto;
+    max-width: 180px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+/* ------------ Chiudi Popup ------------ */
+.close-cb {
+    border: none;
+    color: #333;
+    position: absolute;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    justify-content: center;
+    right: 15px;
+    top: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 20px;
+    width: 20px;
+    font-size: 17px;
+    font-family: freightsans_probold;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.close-cb:hover {
+    color: #b5161a;
+}
+
+.checkbox-cb {
+    display: none;
+}
+
+.checkbox-cb:checked+#popup-id {
+    display: none;
+}
+
+.checkbox-cb:checked+#popup-id+.dissolve {
+    display: none;
+}
+
+.checkbox-cb:not(:checked)+.dissolve {
+    display: flex
+}
+
+/* ------------ sfondo ------------ */
+.dissolve {
+    background-color: #333;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    opacity: .5;
+    top: 0;
+    left: 0;
+    z-index: 99998;
+}
+
+/* ------------ Media Query ------------ */
+
+
+
+@media (max-width: 1199.98px) {
+    #popup-id {
+        max-height: 90%;
+    }
+
+    #popup-id h3 {
+        font-size: 1.6rem;
+    }
+
+    #popup-id h4 {
+        font-size: 1.35;
+    }
+
+    #popup-id .desc {
+        font-size: 1.12rem;
+        line-height: 1.3rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #popup-id {
+        height: auto;
+        width: 85%;
+    }
+
+    #popup-id h3 {
+        font-size: 1.5rem;
+    }
+
+    #popup-id h4 {
+        font-size: 1.3rem;
+    }
+
+    #popup-id .desc {
+        font-size: 1.05rem;
+        line-height: 1.2rem;
+    }
+
+    #popup-id .discl {
+        font-size: .8rem;
+        line-height: .95rem;
+    }
+
+    #popup-id .cta {
+        max-width: 90%;
+    }
+
+    #popup-id .lottie-stile {
+        max-height: 140px;
+        max-width: 140px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+
+    #popup-id h3 {
+        font-size: 1.35rem;
+    }
+
+    #popup-id h4 {
+        font-size: 1.15rem;
+    }
+
+    #popup-id .desc {
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    #popup-id .dubbi {
+        font-size: .8rem;
+    }
+
+    #popup-id .cta {
+        max-width: 85%;
+    }
+
+    .no-mobile {
+        display: none;
+    }
+}
