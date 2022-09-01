@@ -12,6 +12,7 @@
 ## BannerI
 
 Componente: /sitecore/content/Storefront/Global/BannerI
+
 Vengono utilizzati per le landing page di mondo Erickson.
 
 
