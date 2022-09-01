@@ -59,7 +59,7 @@ I banner di III livello sono di 4 tipologie, A (100% contenitore), B (50% conten
 
 - **Posizione teaser**: /sitecore/content/Storefront/Global/Teasers/Element Datasources
 - **Posizione carosello**: /sitecore/content/Storefront/Global/Teasers/Carousels Datasources
-
+- **Posizione media librery**: /sitecore/media library/Storefront/TEASER_carousel
 **Info**: I teaser sono banner di grandi dimensioni composti da una parte di html e img, vengono utilizzati in poche pagine come home, mab e didattica.
 
 
