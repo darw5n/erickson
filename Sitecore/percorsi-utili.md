@@ -9,20 +9,23 @@
 # Banner
 
 
-
 ## BannerI
 
-**Componente**: /sitecore/content/Storefront/Global/BannerI
+**Posizione banner**: /sitecore/content/Storefront/Global/BannerI
 
-Vengono utilizzati per le landing page di mondo Erickson come banner di apertura.
+**Info**: Vengono utilizzati per le landing page di mondo Erickson come banner di apertura.
 
+**Dimensioni**:
+- BANNER DESK: 1460x400 px
+- BANNER TABLET: 768x400 px
+- BANNER MOBILE:  360x450 px
 
 
 ## BannerII
 
-**Componente**: /sitecore/content/Storefront/Global/BannerII
+**Posizione banner**: /sitecore/content/Storefront/Global/BannerII
 
-**Dimensioni**: Banner 716x400px che occupano ½ della larghezza del contenitore (in versione desktop), su sitecore viene caricata la stessa immagine per le 3 versioni desk, tab, mobile. 
+**Info**: Banner 716x400px che occupano ½ della larghezza del contenitore (in versione desktop), su sitecore viene caricata la stessa immagine per le 3 versioni desk, tab, mobile. 
 
 Il corosello di Banner di II livello stampa 2 banner alla volta, anche su mobile in verticale.
 
@@ -30,17 +33,20 @@ Il corosello di Banner di II livello stampa 2 banner alla volta, anche su mobile
 
 ## BannerIII
 
-**Componente**: /sitecore/content/Storefront/Global/BannerIII
+**Posizione banner**: /sitecore/content/Storefront/Global/BannerIII
 
-**Dimensioni**: Banner 1460x250px che occupano l’intera larghezza del contenitore (in versione desktop), mentre la versione tablet misura 768x250. Solitamente utilizziamo la versione tablet anche per mobile.
+**Info**: Banner 1460x250px che occupano l’intera larghezza del contenitore (in versione desktop), mentre la versione tablet misura 768x250. Solitamente utilizziamo la versione tablet anche per mobile.
 
 I banner di III livello sono di 4 tipologie, A (100% contenitore), B (50% contenitore), C (25% contenitore), D (12% contenitore).
 
 
 
+
+
+
 ## Teaser
 
-**Componente**: /sitecore/content/Storefront/Global/Teasers/Element Datasources
+**Posizione teaser**: /sitecore/content/Storefront/Global/Teasers/Element Datasources
 
 
 
