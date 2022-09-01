@@ -1,0 +1,1 @@
+window.location.replace('https://eventi.erickson.it/convegno-minori-2021/Home');

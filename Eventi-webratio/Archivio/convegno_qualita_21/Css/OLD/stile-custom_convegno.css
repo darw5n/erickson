@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Vibur&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+body {
+  background: #E6E134 !important;
+  background-attachment: fixed !important;
+}
+
+.container.top-nav {
+  display: none;
+}
+
+.top-header, .top-header .header {
+  background-color: #cec919 !important;
+}
+
+.btn.btn-primary, .btn.btn-secondary {
+  border-radius: 50px;
+}
+
+.copy-footer {
+  background-color: #a99714 !important;
+  border-top: 1px solid #a99714 !important;
+}
+
+/* custom css*/
+.convegno-Q .circle {
+  background: #40806F;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 20;
+  color: #fff;
+  display: inline-block;
+  line-height: 40px;
+  margin-right: 5px;
+  text-align: center;
+  width: 47px;
+  padding-bottom: 7px;
+}
+
+@media (max-width: 576px) {
+  .convegno-Q .circle {
+    width: 33px;
+    padding-bottom: 3px;
+    line-height: 30px;
+  }
+}
+
+.convegno-Q .sfondo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: -1;
+  max-width: 1200px;
+  width: 100%;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.convegno-Q .date {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-bottom: 15px;
+  -webkit-transform: translate(0, -7px);
+          transform: translate(0, -7px);
+  z-index: 9;
+}
+
+@media (max-width: 1200px) {
+  .convegno-Q .date {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .convegno-Q .date {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .convegno-Q .date {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+  }
+}
+
+.convegno-Q .uno {
+  background: #b5161a !important;
+  padding: 10px;
+  color: #fff;
+}
+
+.convegno-Q .due {
+  background: #fff !important;
+  padding: 10px;
+}
+
+.convegno-Q .container-Q {
+  position: relative;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .convegno-Q .container-Q .centered {
+    position: relative;
+    -webkit-transform: translatex(20px);
+            transform: translatex(20px);
+  }
+}
+
+.convegno-Q .container-Q .centered img {
+  -webkit-transform: translate(-20px, 0);
+          transform: translate(-20px, 0);
+}
+
+.convegno-Q .agenda {
+  -webkit-transform: rotate(-2deg) translate(-20px, 0);
+          transform: rotate(-2deg) translate(-20px, 0);
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 25px 0;
+  z-index: 10;
+  position: relative;
+}
+
+.convegno-Q .agenda mark {
+  padding: 10px;
+  background: #40806F;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .convegno-Q .hideonmid {
+    display: none;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .convegno-Q .visonmid {
+    display: none;
+  }
+}
+
+.convegno-Q .blocco-testo {
+  padding: 50px 50px 55px 50px;
+  background-color: white;
+  -webkit-transform: skew(-5deg, -3deg) rotate(7deg);
+          transform: skew(-5deg, -3deg) rotate(7deg);
+}
+
+.convegno-Q .blocco-testo .contenuto {
+  -webkit-transform: skew(5deg, 3deg) rotate(-7deg);
+          transform: skew(5deg, 3deg) rotate(-7deg);
+}
+
+.convegno-Q .promo {
+  margin-top: 4rem;
+  padding: 0px 20px 35px 20px;
+  background-color: white;
+  -webkit-transform: skew(5deg, 3deg);
+          transform: skew(5deg, 3deg);
+}
+
+.convegno-Q .promo .contenuto {
+  -webkit-transform: skew(-5deg, -3deg);
+          transform: skew(-5deg, -3deg);
+}
+
+.convegno-Q .box_iscriviti::before, .convegno-Q .box_iscriviti::after {
+  content: none !important;
+}
+
+.convegno-Q .limit {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .convegno-Q .limit {
+    font-size: .75rem;
+  }
+}
+
+.link:hover {
+  cursor: pointer !important;
+}
+
+@media (max-width: 575.9px) {
+  .no-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .no-tab {
+    display: none !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .solo-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 767.9px) {
+  .solo-tab-mobile {
+    display: none;
+  }
+}
+
+.event-sezioni .sezione-AGGIORNAMI {
+  background-color: transparent !important;
+}
+
+.p-b {
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+  .p-b {
+    padding-bottom: 1rem;
+  }
+}
+
+.p-t {
+  padding-top: 2rem;
+}
+
+@media (max-width: 576px) {
+  .p-t {
+    padding-top: 1rem;
+  }
+}
+
+.m-b {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+  .m-b {
+    margin-bottom: 1rem;
+  }
+}
+
+.m-t {
+  margin-top: 2rem;
+}
+
+@media (max-width: 576px) {
+  .m-t {
+    margin-top: 1rem;
+  }
+}
+/*# sourceMappingURL=stile-custom_convegno.css.map */

@@ -1,0 +1,1 @@
+window.location.replace('https://eventi.erickson.it/convegno-qualita-inclusione-2021/Home');

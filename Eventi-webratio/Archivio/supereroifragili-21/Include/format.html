@@ -1,0 +1,100 @@
+<link href="https://erickson-learn-resources.s3.amazonaws.com/production/plugin/slick/slick.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://erickson-learn-resources.s3.amazonaws.com/production/plugin/slick/slick.min.js"></script>
+<link href="https://erickson-learn-resources.s3.amazonaws.com/production/plugin/slick/slick-theme.css" rel="stylesheet" type="text/css" />
+
+<div class="container convegno-supereroi hp" style="margin-top: -3rem;">
+    <div class="format">
+    <div class="frame-title title-big">
+        <section class="relatori slider" id="struttura">
+                <div class="box">
+                    <img class="img-responsive" src="https://erickson-learn-resources.s3.amazonaws.com/production/event/supereroifragili-21/Img/Fumetto-1.svg">
+                    <div class="descrizione">
+                        <h3 class="writing">Sessioni Plenarie</h3>
+                        <p class="small">Per esplorare i temi vicini al mondo adolescente, con ospiti di rilievo che offrono spunti su tematiche di interesse quotidiano.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="https://erickson-learn-resources.s3.amazonaws.com/production/event/supereroifragili-21/Img/Fumetto-2.svg">
+                    <div class="descrizione">
+                        <h3 class="writing">Tavole rotonde</h3>
+                        <p class="small">Voci esperte provenienti da ambiti diversi discutono tematiche pensate alla luce della situazione attuale.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="https://erickson-learn-resources.s3.amazonaws.com/production/event/supereroifragili-21/Img/Fumetto-3.svg">
+                    <div class="descrizione">
+                        <h3  class="writing">Teen talk</h3>
+                        <p class="small">Momenti per parlare di temi caldi, attuali e importanti, di e con ragazzi e ragazze.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="https://erickson-learn-resources.s3.amazonaws.com/production/event/supereroifragili-21/Img/Fumetto-4.svg">
+                    <div class="descrizione">
+                        <h3 class="writing">Workshop</h3>
+                        <p class="small">Occasioni di approfondimento su moltissimi temi specifici.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="img-responsive" src="https://erickson-learn-resources.s3.amazonaws.com/production/event/supereroifragili-21/Img/Fumetto-5.svg">
+                    <div class="descrizione">
+                        <h3 class="writing">Strumenti in pratica</h3>
+                        <p class="small">Attivit&agrave; pratiche e operative per sperimentare attivamente e in presenza strategie e tecniche specifiche.</p>
+                    </div>
+                </div>
+        </section>
+
+        <style>
+            .pad {
+            padding: 10px !important;
+            }
+
+            #relatori-Q p {
+            font-weight: 700;
+            text-align: center;
+            }
+        </style>
+        <script type="text/javascript">
+            $(document).on('ready', function () {
+            $(".relatori").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 6000,
+                // centerMode: true,
+                responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    autoplaySpeed: 3000
+                    }
+                },
+                {
+                    breakpoint: 960,
+                    settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    autoplay: true,
+                    autoplaySpeed: 3000
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3000
+                    }
+                }
+                ]
+            });
+            });
+        </script>
+        </div>
+    </div>
+</div>

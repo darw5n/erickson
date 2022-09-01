@@ -1,0 +1,234 @@
+.dropright .dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.menu-ME-HP {
+    margin: 0px;
+    padding: 0 2px;
+}
+
+.dropdown-menu-right {
+    right: 0 !important;
+    left: inherit !important;
+}
+
+.icon_dropmenu_HP {
+    width: 126px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: -74px;
+}
+
+@media(min-width:768px) {
+    .vers_desk {
+        display: block;
+    }
+
+    .vers_desk .dropdown-menu.show {
+        transform: translate3d(2px, 218px, 0px) !important;
+    }
+
+    .vers_mobile {
+        display: none;
+    }
+
+    .icon_dropmenu_HP {
+        width: 126px;
+        height: auto;
+    }
+
+    .box-menu_ME_HP {
+        top: 70px;
+    }
+}
+
+@media(max-width:767px) {
+    .vers_desk {
+        display: none;
+    }
+
+    .vers_mobile .dropdown-menu.show {}
+
+    .vers_mobile {
+        display: block;
+    }
+
+    .dropdown-item strong {
+        font-family: freightsans_prosemibold;
+    }
+
+    .box-menu_ME_HP .label_target-toogle {
+        padding: 0 .8rem !important;
+        font-size: .85rem;
+    }
+
+    .icon_dropmenu_HP {
+        width: 100px;
+        height: auto;
+        top: -89px;
+        display: none;
+    }
+
+    .box-menu_ME_HP {
+        top: 0 !important;
+        margin-bottom: 5px;
+        border-top-left-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+        height: 80px !important;
+    }
+
+    .dropdown-menu.show {
+        margin-top: 83px;
+        width: 194%;
+    }
+}
+
+.dropdown-menu.show {
+    box-shadow: 0px 11px 23px rgba(102, 102, 102, .7);
+}
+
+.toggle-ME-HP {
+    margin: 0 auto;
+    display: inline-block;
+    position: relative !important;
+    margin-left: auto !important;
+}
+
+.box-menu_ME_HP {
+    background: #f4f4f4;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    top: 127px;
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-top-right-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-topright: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-top: 1.5rem;
+}
+
+.box-menu_ME_HP .label_target-toogle {
+    white-space: normal;
+    display: inline-block;
+    padding: 0 1.1rem;
+    font-size: .9rem;
+    line-height: 1;
+    font-family: freightsans_prosemibold;
+    text-transform: uppercase;
+}
+
+.menu-ME-HP a.toggle-ME-HP {
+    width: 100%;
+    padding: 0;
+}
+
+.menu-ME-HP a .label_target-toogle::after {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    border-top: 0.5em solid;
+    border-right: .5em solid transparent;
+    border-bottom: 0;
+    border-left: .5em solid transparent;
+    margin-top: 6px;
+}
+
+/*
+.menu-ME-HP a:hover .label_target-toogle::after {
+color:#333;
+}
+*/
+.show .label_target-toogle::after {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    display: block;
+    margin: 0 auto;
+    color: #333;
+    border-top: 0 !important;
+    border-right: .5em solid transparent;
+    border-bottom: 0.5em solid !important;
+    border-left: .5em solid transparent;
+    margin-top: 6px;
+}
+
+/* ------------------- animazione img ------------------------- */
+.menu-ME-HP a img {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-ME-HP a:hover img {
+    transform: translateY(-6px);
+}
+
+.menu-ME-HP a:hover {
+    cursor: pointer;
+}
+
+/* ------------------ css dropdown target -------------------*/
+.dropdown-menu.show a {
+    background-color: #fff !important;
+}
+
+.dropdown-item {
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    border-bottom: #f4f4f4 solid 1px;
+}
+
+.dropdown-menu.show {
+    border: none;
+    border-bottom: #f4f4f4 20px solid;
+    border-top: #f4f4f4 5px solid;
+    background: #fff;
+    border-radius: 0;
+}
+
+/* ------------------ color target -------------------*/
+.color_scuola {
+    background: #2E658C;
+    color: #fff;
+}
+
+.color_MAB {
+    background: #5491AD;
+    color: #fff;
+}
+
+.color_genitori {
+    background: #D5A3B5;
+    color: #fff;
+}
+
+.color_clinico {
+    background: #861216;
+    color: #fff;
+}
+
+.color_sociale {
+    background: #99733C;
+    color: #fff;
+}
+
+.color_formazione {
+    background: #b5161a;
+    color: #fff;
+}

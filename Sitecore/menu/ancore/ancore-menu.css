@@ -1,0 +1,26 @@
+/* indice ancore */
+.col-6.col-md-3.py-3:first-child:after {
+   content: none !important;
+}
+
+
+.col-6.col-md-3.py-3::after {
+   content: '';
+   width: 2px;
+   background: #b5161a;
+   position: absolute;
+   top: 0;
+   left: -1px;
+   height: 100%;
+}
+@media (max-width: 576px){
+   .col-6.col-md-3.py-3:nth-child(3):before {
+       content: '';
+       width: 2px;   
+       background: #b5161a;
+       position: absolute;
+       top: 0;
+       right: -1px;
+       height: 100%;
+   }
+}

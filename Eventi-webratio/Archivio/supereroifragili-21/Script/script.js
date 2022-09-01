@@ -1,0 +1,1 @@
+window.location.replace('http://eventi.erickson.it/convegno-supereroi-2022/Home');
