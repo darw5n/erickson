@@ -1,12 +1,9 @@
 @charset "UTF-8";
 @font-face {
   font-family: "FeltWoman";
-  src: url("https://erickson-learn-resources.s3.amazonaws.com/production/event/sono_adulto_21/font/Felt%20Tip%20Woman.ttf");
-  /* per IE 5-8 */
-  src: local("☺"), url("https://erickson-learn-resources.s3.amazonaws.com/production/event/sono_adulto_21/font/Felt-Tip-Woman.woff") format("woff"), url("https://erickson-learn-resources.s3.amazonaws.com/production/event/sono_adulto_21/font/Felt%20Tip%20Woman.ttf") format("truetype");
-  /* Opera, Safari */
+  src: url("https://erickson-learn-resources.s3.amazonaws.com/production/event/sono_adulto_21/font/Felt%20Tip%20Woman.ttf"); /* per IE 5-8 */
+  src: local("☺"), url("https://erickson-learn-resources.s3.amazonaws.com/production/event/sono_adulto_21/font/Felt-Tip-Woman.woff") format("woff"), url("https://erickson-learn-resources.s3.amazonaws.com/production/event/sono_adulto_21/font/Felt%20Tip%20Woman.ttf") format("truetype"); /* Opera, Safari */
 }
-
 body {
   background-color: #fcfcfc !important;
 }
@@ -21,233 +18,174 @@ body::after {
   right: 0;
   position: absolute;
   z-index: -1;
-  background-size: 1650px !important;
-  /* cambia dimensione sfondo */
+  background-size: 1650px !important; /* cambia dimensione sfondo */
 }
-
 @media (max-width: 991.9px) {
   body::after {
-    background-size: 1000px !important;
-    /* cambia dimensione sfondo */
+    background-size: 1000px !important; /* cambia dimensione sfondo */
   }
 }
-
 @media (max-width: 576px) {
   body::after {
-    background-size: 400px !important;
-    /* cambia dimensione sfondo */
+    background-size: 400px !important; /* cambia dimensione sfondo */
   }
 }
 
 .convegno-sonoadulto {
   /*colori */
 }
-
 .convegno-sonoadulto .primario {
   color: #7dc8c2;
 }
-
 .convegno-sonoadulto .secondario {
   color: #cbe6dc;
 }
-
 .convegno-sonoadulto .rosso {
   color: #cc6666;
 }
-
 .convegno-sonoadulto .giallo {
   color: #ccae66;
 }
-
 .convegno-sonoadulto .viola {
   color: #7b8ac7;
 }
-
 .convegno-sonoadulto .elenco {
-  margin-top: .8rem;
-  margin-bottom: .8rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
-
 .convegno-sonoadulto .elenco li {
   display: inline-block !important;
   margin-right: 1rem;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-
 .convegno-sonoadulto .elenco li:hover {
   -webkit-text-stroke: 1px #7dc8c2;
   color: #7dc8c2;
 }
-
 .convegno-sonoadulto h2,
 .convegno-sonoadulto h4 {
   text-transform: uppercase;
 }
-
 .convegno-sonoadulto .intestazione h2 {
   font-weight: 500;
 }
-
 .convegno-sonoadulto h3 {
   font-weight: 700;
 }
-
 .convegno-sonoadulto h3.intro {
   font-family: "freightdisp", serif;
   text-transform: none;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 .convegno-sonoadulto .row.row-equal {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   display: -webkit-flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .convegno-sonoadulto .head {
   margin: 20px auto;
   background: url("https://erickson-learn-resources.s3.amazonaws.com/production/event/sono_adulto_21/img/background-2.svg") #cbe6dc !important;
-  background-size: 400px !important;
-  /* cambia dimensione sfondo */
+  background-size: 400px !important; /* cambia dimensione sfondo */
 }
-
 .convegno-sonoadulto .head .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
 }
-
 @media (max-width: 768px) {
   .convegno-sonoadulto .head .row {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
   }
 }
-
 .convegno-sonoadulto .head h1 {
   font-size: 5rem;
   font-weight: 800;
   line-height: 95%;
 }
-
 @media (max-width: 1200px) {
   .convegno-sonoadulto .head h1 {
     font-size: 4rem;
   }
 }
-
 @media (max-width: 768px) {
   .convegno-sonoadulto .head h1 {
     font-size: 3rem;
   }
 }
-
 @media (max-width: 576px) {
   .convegno-sonoadulto .head h1 {
     font-size: 2.5rem;
   }
 }
-
 .convegno-sonoadulto .head h2 {
   font-size: 2.6rem;
   font-weight: 400;
 }
-
 @media (max-width: 1200px) {
   .convegno-sonoadulto .head h2 {
     font-size: 2.4rem;
   }
 }
-
 @media (max-width: 768px) {
   .convegno-sonoadulto .head h2 {
     font-size: 2rem;
   }
 }
-
 @media (max-width: 576px) {
   .convegno-sonoadulto .head h2 {
     font-size: 1.3rem;
   }
 }
-
 @media (max-width: 576px) {
   .convegno-sonoadulto .head h3, .convegno-sonoadulto .head h4 {
     font-size: 1rem;
   }
 }
-
 .convegno-sonoadulto .box {
   padding: 1rem;
 }
-
 @media (max-width: 768px) {
   .convegno-sonoadulto .box {
-    padding: 1rem .5rem;
+    padding: 1rem 0.5rem;
   }
 }
-
 .convegno-sonoadulto .box .cardz {
   height: 100%;
   background-color: white;
   border-radius: 1.5rem;
   padding: 1.5rem;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-  -webkit-box-shadow: 0 2px 5px rgba(154, 160, 185, 0.05), 0 4px 15px rgba(166, 173, 201, 0.1);
-          box-shadow: 0 2px 5px rgba(154, 160, 185, 0.05), 0 4px 15px rgba(166, 173, 201, 0.1);
+  transition: all 0.5s;
+  box-shadow: 0 2px 5px rgba(154, 160, 185, 0.05), 0 4px 15px rgba(166, 173, 201, 0.1);
 }
-
 @media (max-width: 768px) {
   .convegno-sonoadulto .box .cardz {
     padding: 1rem;
   }
 }
-
 .convegno-sonoadulto .box.head {
   background-color: #cbe6dc;
   border-radius: 1.5rem;
   padding: 1.5rem;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-box-shadow: 0 2px 5px rgba(154, 160, 185, 0.05), 0 4px 15px rgba(166, 173, 201, 0.1);
-          box-shadow: 0 2px 5px rgba(154, 160, 185, 0.05), 0 4px 15px rgba(166, 173, 201, 0.1);
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 2px 5px rgba(154, 160, 185, 0.05), 0 4px 15px rgba(166, 173, 201, 0.1);
 }
-
 @media (max-width: 768px) {
   .convegno-sonoadulto .box.head {
     padding: 1rem;
   }
 }
-
 .convegno-sonoadulto .box.head:hover {
-  -webkit-box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
-          box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+  transform: scale(1.02);
 }
-
 .convegno-sonoadulto .box:hover .cardz {
-  -webkit-box-shadow: 0 5px 10pxs rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
-          box-shadow: 0 5px 10pxs rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  box-shadow: 0 5px 10pxs rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+  transform: scale(1.02);
 }
-
 .convegno-sonoadulto .struttura .box h3 {
   font-family: "FeltWoman";
   text-transform: uppercase;
 }
-
 .convegno-sonoadulto .struttura .num {
   position: absolute;
   top: 50%;
@@ -256,193 +194,139 @@ body::after {
   font-weight: 900;
   opacity: 0.05;
 }
-
 @media (max-width: 1200px) {
   .convegno-sonoadulto .struttura .num {
     font-size: 12rem;
   }
 }
-
 @media (max-width: 768px) {
   .convegno-sonoadulto .struttura .num {
     font-size: 10rem;
   }
 }
-
 @media (max-width: 576px) {
   .convegno-sonoadulto .struttura .num {
     font-size: 8rem;
   }
 }
-
 .convegno-sonoadulto .struttura .plen .num {
-  -webkit-transform: translate(-50%, -54%) rotate(-10deg);
-          transform: translate(-50%, -54%) rotate(-10deg);
+  transform: translate(-50%, -54%) rotate(-10deg);
 }
-
 .convegno-sonoadulto .struttura .Q-time {
-  -webkit-transform: translate(0, 20px) !important;
-          transform: translate(0, 20px) !important;
+  transform: translate(0, 20px) !important;
 }
-
 .convegno-sonoadulto .struttura .Q-time .num {
-  -webkit-transform: translate(-50%, -54%) rotate(17deg);
-          transform: translate(-50%, -54%) rotate(17deg);
+  transform: translate(-50%, -54%) rotate(17deg);
 }
-
 .convegno-sonoadulto .struttura .simp .num {
-  -webkit-transform: translate(-50%, -54%) rotate(-3deg);
-          transform: translate(-50%, -54%) rotate(-3deg);
+  transform: translate(-50%, -54%) rotate(-3deg);
 }
-
 .convegno-sonoadulto .struttura .works {
-  -webkit-transform: translate(0, 20px) !important;
-          transform: translate(0, 20px) !important;
+  transform: translate(0, 20px) !important;
 }
-
 .convegno-sonoadulto .struttura .works .num {
-  -webkit-transform: translate(-50%, -54%) rotate(26deg);
-          transform: translate(-50%, -54%) rotate(26deg);
+  transform: translate(-50%, -54%) rotate(26deg);
 }
-
 .convegno-sonoadulto img.punto-esclamativo {
   max-height: 400px;
 }
-
 .convegno-sonoadulto .temi .item {
   /*flex: 0 1 calc(20% - 8px);  <-- adjusting for margin */
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 calc(30%);
-          flex: 0 1 calc(30%);
-  /* <-- adjusting for margin */
+  flex: 0 1 30%; /* <-- adjusting for margin */
 }
-
 @media (max-width: 768px) {
   .convegno-sonoadulto .temi .item {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 calc(50%);
-            flex: 0 1 calc(50%);
+    flex: 0 1 50%;
   }
 }
-
 .convegno-sonoadulto .temi img.chiave {
   max-height: 100px;
   margin: 0 auto;
   margin-bottom: 1.2rem;
 }
-
 .convegno-sonoadulto .temi .box h3 {
   font-family: "FeltWoman";
 }
-
 @media (min-width: 991.9px) {
   .convegno-sonoadulto .relatori .col-md-12 {
     padding: 0 20%;
   }
 }
-
 .convegno-sonoadulto .relatori .item {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 calc(20%);
-          flex: 0 1 calc(20%);
-  /* <-- adjusting for margin */
+  flex: 0 1 20%; /* <-- adjusting for margin */
 }
-
 @media (max-width: 768px) {
   .convegno-sonoadulto .relatori .item {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 calc(50%);
-            flex: 0 1 calc(50%);
+    flex: 0 1 50%;
   }
 }
-
 .convegno-sonoadulto .relatori .item .cardz {
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background: url("https://erickson-learn-resources.s3.amazonaws.com/production/event/sono_adulto_21/img/background-2.svg") #fff !important;
-  background-size: 400px !important;
-  /* cambia dimensione sfondo */
+  background-size: 400px !important; /* cambia dimensione sfondo */
 }
-
 .convegno-sonoadulto .relatori .item .cardz:hover {
   background-color: #7dc8c2 !important;
   color: #fff !important;
 }
-
 .convegno-sonoadulto .relatori .item .cardz:hover h3 {
   color: #fff !important;
 }
-
 .convegno-sonoadulto .relatori .item.box.text-center:nth-child(4n+2) .cardz h3 {
   color: #ccae66;
 }
-
 .convegno-sonoadulto .relatori .item.box.text-center:nth-child(4n+3) .cardz h3 {
   color: #7b8ac7;
 }
-
 .convegno-sonoadulto .relatori .item.box.text-center:nth-child(4n+4) .cardz h3 {
   color: #7dc8c2;
 }
-
 .convegno-sonoadulto .relatori .item.box.text-center:nth-child(4n+1) .cardz h3 {
   color: #cc6666;
 }
-
 .convegno-sonoadulto .relatori .box h3 {
   font-family: "FeltWoman";
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-
 .convegno-sonoadulto p.small {
   /* paragrafi */
   font-size: 1.25rem;
   line-height: initial;
 }
-
 @media (max-width: 1200px) {
   .convegno-sonoadulto p.small {
     font-size: 1.1rem;
   }
 }
-
 @media (max-width: 768px) {
   .convegno-sonoadulto p.small {
     font-size: 1rem;
   }
 }
-
 @media (max-width: 576px) {
   .convegno-sonoadulto p.small {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
-
 .convegno-sonoadulto .p-b {
   padding-bottom: 2rem;
 }
-
 @media (max-width: 576px) {
   .convegno-sonoadulto .p-b {
     padding-bottom: 1rem;
   }
 }
-
 .convegno-sonoadulto .p-t {
   padding-top: 2rem;
 }
-
 @media (max-width: 576px) {
   .convegno-sonoadulto .p-t {
     padding-top: 1rem;
   }
 }
-
 .convegno-sonoadulto .btn.btn-primary, .convegno-sonoadulto .btn.btn-secondary {
   border-radius: 50px;
 }
-
 .convegno-sonoadulto .box_iscriviti::before, .convegno-sonoadulto .box_iscriviti::after {
   content: none !important;
 }
@@ -465,5 +349,4 @@ body::after {
 
 .event-sezioni .sezione-AGGIORNAMI {
   background-color: transparent !important;
-}
-/*# sourceMappingURL=stile-custom_convegno.css.map */
+}/*# sourceMappingURL=stile-custom_convegno.css.map */

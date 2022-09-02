@@ -8,24 +8,18 @@
   /* box header custom style */
   /* tutti i box */
 }
-
 .convegno-Q .box-3d {
   display: block;
 }
-
 .convegno-Q .box-head {
-  -webkit-transform: skew(-5deg, -3deg) rotate(7deg);
   transform: skew(-5deg, -3deg) rotate(7deg);
   background-color: #E6E134;
   width: 100%;
   height: 500px;
 }
-
 .convegno-Q .box-head .contenuto {
-  -webkit-transform: skew(5deg, 3deg) rotate(-7deg);
   transform: skew(5deg, 3deg) rotate(-7deg);
 }
-
 .convegno-Q .circle {
   background: #40806F;
   border-radius: 50%;
@@ -39,7 +33,6 @@
   width: 47px;
   padding-bottom: 7px;
 }
-
 @media (max-width: 576px) {
   .convegno-Q .circle {
     width: 33px;
@@ -47,24 +40,18 @@
     line-height: 30px;
   }
 }
-
 .convegno-Q .head-Q .container-info {
   padding: 2.5rem;
-  -webkit-transform: translatex(60px);
-          transform: translatex(60px);
+  transform: translatex(60px);
 }
-
 @media (max-width: 768px) {
   .convegno-Q .head-Q .container-info {
-    -webkit-transform: translatex(0);
-            transform: translatex(0);
+    transform: translatex(0);
     padding: 2rem 1.7rem;
   }
 }
-
 .convegno-Q .head-Q .agenda {
-  -webkit-transform: rotate(-2deg) translate(-20px, 0);
-          transform: rotate(-2deg) translate(-20px, 0);
+  transform: rotate(-2deg) translate(-20px, 0);
   text-transform: uppercase;
   font-weight: 700;
   margin: 25px 0;
@@ -72,85 +59,70 @@
   position: relative;
   letter-spacing: 1;
 }
-
 .convegno-Q .head-Q .agenda mark {
   padding: 10px;
   background: #40806F;
   color: #fff;
 }
-
 .convegno-Q .head-Q .agenda mark.format {
   background: #B1561A !important;
 }
-
 .convegno-Q .head-Q p.agenda.solo-mobile + p.agenda.solo-mobile {
   margin-top: -20px;
   margin-left: 1px;
 }
-
 .convegno-Q .head-Q .date {
   line-height: 3.5rem;
   margin-bottom: 15px;
-  -webkit-transform: translate(0, -7px);
-          transform: translate(0, -7px);
+  transform: translate(0, -7px);
   z-index: 9;
   font-weight: 800;
 }
-
 @media (max-width: 1200px) {
   .convegno-Q .head-Q .date {
     line-height: 2.6rem;
   }
 }
-
 @media (max-width: 768px) {
   .convegno-Q .head-Q .date {
     line-height: 2rem;
   }
 }
-
 @media (max-width: 576px) {
   .convegno-Q .head-Q .date {
     line-height: 1.4rem;
     font-size: 1.4rem;
   }
 }
-
 .convegno-Q .uno {
   background: #b5161a !important;
   padding: 10px;
   color: #fff;
 }
-
 .convegno-Q .due {
   background: #fff !important;
   padding: 10px;
 }
-
 .convegno-Q .tre {
   background: #f4f4f4 !important;
   padding: 10px;
 }
-
 .convegno-Q .box-1 {
   background-color: #E6E134;
   -webkit-clip-path: polygon(0 4%, 100% 0, 92% 99%, 6% 93%);
           clip-path: polygon(0 4%, 100% 0, 92% 99%, 6% 93%);
 }
-
 @media (max-width: 575.9px) {
   .convegno-Q .box-1 {
     -webkit-clip-path: polygon(0 4%, 100% 0, 94% 99%, 3% 95%);
             clip-path: polygon(0 4%, 100% 0, 94% 99%, 3% 95%);
   }
 }
-
 .convegno-Q .box-2 {
   background-color: #40806F;
   -webkit-clip-path: polygon(11% 5%, 92% 0, 99% 100%, 0 89%);
           clip-path: polygon(11% 5%, 92% 0, 99% 100%, 0 89%);
 }
-
 .convegno-Q .box-2 .container-box {
   padding: 6rem;
   color: #fff;
@@ -158,35 +130,29 @@
   font-weight: 400;
   padding: 6rem;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .box-2 .container-box {
     padding: 5rem;
   }
 }
-
 @media (max-width: 575.9px) {
   .convegno-Q .box-2 .container-box {
     padding: 3.6rem;
   }
 }
-
 .convegno-Q .box-3 {
   background-color: #f4f4f4;
   -webkit-clip-path: polygon(0 4%, 100% 0, 97% 92%, 8% 100%);
           clip-path: polygon(0 4%, 100% 0, 97% 92%, 8% 100%);
 }
-
 .convegno-Q .box-3 .container-box {
   padding: 4rem;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .box-3 .container-box {
     padding: 5rem;
   }
 }
-
 @media (max-width: 575.9px) {
   .convegno-Q .box-3 .container-box {
     padding: 3.6rem;
@@ -195,188 +161,149 @@
     width: 65%;
   }
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .box-3 {
     margin-top: 4rem;
   }
 }
-
 .convegno-Q .box-4 {
   background-color: #E6E134;
   -webkit-clip-path: polygon(0 6%, 100% 0px, 97% 97%, 2% 92%);
           clip-path: polygon(0 6%, 100% 0px, 97% 97%, 2% 92%);
 }
-
 .convegno-Q .box-4 .container-box {
   padding: 2rem;
 }
-
 .convegno-Q .box-5 {
   background-color: #40806F;
   color: #fff;
   -webkit-clip-path: polygon(0 6%, 100% 0px, 97% 97%, 2% 92%);
           clip-path: polygon(0 6%, 100% 0px, 97% 97%, 2% 92%);
 }
-
 .convegno-Q .box-5 .container-box {
   padding: 2rem;
 }
-
 .convegno-Q .box-plenaria {
   background-color: #40806F;
   -webkit-clip-path: polygon(0 6%, 100% 0px, 97% 97%, 2% 92%);
           clip-path: polygon(0 6%, 100% 0px, 97% 97%, 2% 92%);
 }
-
 .convegno-Q .box-plenaria .container-box {
   padding: 4rem 3rem;
   color: #fff;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .box-plenaria .container-box {
     padding: 3rem 2rem;
   }
 }
-
 .convegno-Q .box-dialogo {
   background-color: #E6E134;
   -webkit-clip-path: polygon(0 6%, 100% 0px, 97% 97%, 2% 92%);
           clip-path: polygon(0 6%, 100% 0px, 97% 97%, 2% 92%);
 }
-
 .convegno-Q .box-dialogo .container-box {
   padding: 4rem 3rem;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .box-dialogo .container-box {
     padding: 3rem 2rem;
   }
 }
-
 .convegno-Q .box-illustra {
   min-height: 50px;
 }
-
 .convegno-Q .box-format {
   background-color: #f4f4f4;
 }
-
 .convegno-Q .box-format .container-box {
   padding: 3rem;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .box-format .container-box {
     padding: 1.8rem;
   }
 }
-
 .convegno-Q .box-format.qtalk {
   -webkit-clip-path: polygon(5% 4%, 98% 0, 99% 94%, 0 100%);
           clip-path: polygon(5% 4%, 98% 0, 99% 94%, 0 100%);
 }
-
 .convegno-Q .box-format.qtalk h5 {
   color: #B1561A;
 }
-
 .convegno-Q .box-format.workshop {
   -webkit-clip-path: polygon(0 6%, 100% 0px, 97% 97%, 2% 92%);
           clip-path: polygon(0 6%, 100% 0px, 97% 97%, 2% 92%);
 }
-
 .convegno-Q .box-format.workshop h5 {
-  color: #c5c030;
+  color: #E6E134;
 }
-
 .convegno-Q .box-format.qnote {
   -webkit-clip-path: polygon(0 3%, 100% 0, 91% 95%, 6% 92%);
           clip-path: polygon(0 3%, 100% 0, 91% 95%, 6% 92%);
 }
-
 .convegno-Q .box-format.qnote h5 {
-  color: #cac525;
+  color: #E6E134;
 }
-
 .convegno-Q .box-format.tavole {
   -webkit-clip-path: polygon(3% 2%, 94% 0, 100% 94%, 0 99%);
           clip-path: polygon(3% 2%, 94% 0, 100% 94%, 0 99%);
 }
-
 .convegno-Q .box-format.tavole h5 {
   color: #40806F;
 }
-
 .convegno-Q .box-format.qnote-sp {
   -webkit-clip-path: polygon(3% 2%, 94% 0, 100% 94%, 0 99%);
           clip-path: polygon(3% 2%, 94% 0, 100% 94%, 0 99%);
 }
-
 .convegno-Q .box-format.qnote-sp h5 {
   color: #40806F;
 }
-
 .convegno-Q .box-format.qnote-sp .container-box {
   padding: 4rem 3rem;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .box-format.qnote-sp .container-box {
     padding: 3rem 2rem;
   }
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .container-format {
-    -webkit-transform: translateX(15px);
-            transform: translateX(15px);
+    transform: translateX(15px);
   }
 }
-
 .convegno-Q .illustrazione-1, .convegno-Q .illustrazione-2, .convegno-Q .illustrazione-3, .convegno-Q .illustrazione-4, .convegno-Q .illustrazione-5, .convegno-Q .illustrazione-6, .convegno-Q .illustrazione-7, .convegno-Q .illustrazione-8 {
   position: absolute;
   z-index: 1;
 }
-
 .convegno-Q .illustrazione-1 {
   max-width: 50px;
-  -webkit-transform: rotate(65deg);
-          transform: rotate(65deg);
+  transform: rotate(65deg);
   top: 80%;
   right: 25%;
 }
-
 @media (max-width: 575.9px) {
   .convegno-Q .illustrazione-1 {
     width: 35px;
   }
 }
-
 .convegno-Q .illustrazione-2 {
   max-width: 110px;
-  -webkit-transform: rotate(65deg);
-          transform: rotate(65deg);
+  transform: rotate(65deg);
   top: 105%;
   left: 15%;
 }
-
 @media (max-width: 575.9px) {
   .convegno-Q .illustrazione-2 {
     width: 95px;
   }
 }
-
 .convegno-Q .illustrazione-3 {
   width: 75px;
-  -webkit-transform: rotate(65deg);
-          transform: rotate(65deg);
+  transform: rotate(65deg);
   top: 25%;
   right: 10%;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .illustrazione-3 {
     width: 35px;
@@ -384,15 +311,12 @@
     top: 55%;
   }
 }
-
 .convegno-Q .illustrazione-4 {
   width: 85px;
-  -webkit-transform: rotate(65deg);
-          transform: rotate(65deg);
+  transform: rotate(65deg);
   top: 35%;
   left: 10%;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .illustrazione-4 {
     width: 45px;
@@ -400,15 +324,12 @@
     top: 16%;
   }
 }
-
 .convegno-Q .illustrazione-5 {
   width: 85px;
-  -webkit-transform: rotate(62deg);
-          transform: rotate(62deg);
+  transform: rotate(62deg);
   top: 35%;
   left: 10%;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .illustrazione-5 {
     width: 55px;
@@ -416,45 +337,36 @@
     top: 2%;
   }
 }
-
 .convegno-Q .illustrazione-6 {
   width: 85px;
-  -webkit-transform: rotate(-35deg);
-          transform: rotate(-35deg);
+  transform: rotate(-35deg);
   top: 10%;
   right: 10%;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .illustrazione-6 {
     width: 25px;
     right: 30%;
   }
 }
-
 .convegno-Q .illustrazione-7 {
   width: 125px;
-  -webkit-transform: rotate(-95deg);
-          transform: rotate(-95deg);
+  transform: rotate(-95deg);
   top: 10%;
   right: 10%;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .illustrazione-7 {
     width: 75px;
     top: 20%;
   }
 }
-
 .convegno-Q .illustrazione-8 {
   width: 130px;
-  -webkit-transform: rotate(-35deg);
-          transform: rotate(-35deg);
+  transform: rotate(-35deg);
   top: 65%;
   left: 10%;
 }
-
 @media (max-width: 767.9px) {
   .convegno-Q .illustrazione-8 {
     width: 85px;
@@ -497,7 +409,6 @@
 .p-b {
   padding-bottom: 2rem;
 }
-
 @media (max-width: 576px) {
   .p-b {
     padding-bottom: 1rem;
@@ -507,7 +418,6 @@
 .p-t {
   padding-top: 2rem;
 }
-
 @media (max-width: 576px) {
   .p-t {
     padding-top: 1rem;
@@ -517,7 +427,6 @@
 .m-b {
   margin-bottom: 2rem;
 }
-
 @media (max-width: 576px) {
   .m-b {
     margin-bottom: 1rem;
@@ -527,10 +436,8 @@
 .m-t {
   margin-top: 2rem;
 }
-
 @media (max-width: 576px) {
   .m-t {
     margin-top: 1rem;
   }
-}
-/*# sourceMappingURL=stile-custom_convegno.css.map */
+}/*# sourceMappingURL=stile-custom_convegno.css.map */

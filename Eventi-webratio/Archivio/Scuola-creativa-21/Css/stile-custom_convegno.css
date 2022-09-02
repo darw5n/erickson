@@ -22,123 +22,90 @@ body::after {
 .convegno-scuola-creativa {
   /*colori */
 }
-
 .convegno-scuola-creativa .container {
   margin: 2rem auto;
 }
-
 .convegno-scuola-creativa .row {
   margin-left: 0;
   margin-right: 0;
 }
-
 .convegno-scuola-creativa .primario {
   color: #6b9fbe;
 }
-
 .convegno-scuola-creativa .primario.scuro {
   color: #3c6b87 !important;
 }
-
 .convegno-scuola-creativa .secondario {
   color: #f0e96d;
 }
-
 .convegno-scuola-creativa .rosa {
   color: #c66f9e;
 }
-
 .convegno-scuola-creativa .viola {
   color: #7d3f8a;
 }
-
 .convegno-scuola-creativa .verde {
   color: #447350;
 }
-
 .convegno-scuola-creativa a {
   color: #333;
 }
-
 .convegno-scuola-creativa a .iscriviti-box {
-  background-color: #f4f4f4c9;
+  background-color: rgba(244, 244, 244, 0.7882352941);
   background-size: 15px 15px;
-  background-image: repeating-linear-gradient(-45deg, #c66f9d15 0, #c66f9e15 1.5px, #f4f4f4cc 0, #f4f4f4cc 50%);
+  background-image: repeating-linear-gradient(-45deg, rgba(198, 111, 157, 0.0823529412) 0, rgba(198, 111, 158, 0.0823529412) 1.5px, rgba(244, 244, 244, 0.8) 0, rgba(244, 244, 244, 0.8) 50%);
   border-radius: 50px;
-  -webkit-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-          box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  -webkit-transform: skew(5deg, 3deg);
-          transform: skew(5deg, 3deg);
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  transform: skew(5deg, 3deg);
   max-width: 1140px;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
-
 .convegno-scuola-creativa a .iscriviti-box h2 {
   color: #6b9fbe;
 }
-
 .convegno-scuola-creativa a .iscriviti-box div {
-  -webkit-transform: skew(-5deg, -3deg);
-          transform: skew(-5deg, -3deg);
+  transform: skew(-5deg, -3deg);
   padding: 2rem;
 }
-
 .convegno-scuola-creativa a .iscriviti-box:hover {
-  -webkit-box-shadow: 0 5px 10px #bebebe;
-          box-shadow: 0 5px 10px #bebebe;
-  -webkit-transform: translateY(10px) skew(5deg, 3deg);
-          transform: translateY(10px) skew(5deg, 3deg);
+  box-shadow: 0 5px 10px #bebebe;
+  transform: translateY(10px) skew(5deg, 3deg);
 }
-
 .convegno-scuola-creativa a .iscriviti-box:hover .arrow {
-  -webkit-transform: translateX(20px);
-          transform: translateX(20px);
+  transform: translateX(20px);
 }
-
 .convegno-scuola-creativa a .iscriviti-box .arrow {
-  -webkit-transform: translateX(-10px);
-          transform: translateX(-10px);
-  -webkit-transition: all .3s ease-in;
-  transition: all .3s ease-in;
+  transform: translateX(-10px);
+  transition: all 0.3s ease-in;
 }
-
 @media (max-width: 1400px) {
   .convegno-scuola-creativa .head {
-    margin-top: -.2rem;
+    margin-top: -0.2rem;
     margin-bottom: -1rem;
   }
 }
-
 .convegno-scuola-creativa .citazione {
-  background-color: #f4f4f4c9;
+  background-color: rgba(244, 244, 244, 0.7882352941);
   background-size: 15px 15px;
-  background-image: repeating-linear-gradient(45deg, #f0e96dab 0, #f0e96dab 1.5px, #f4f4f4cc 0, #f4f4f4cc 50%);
+  background-image: repeating-linear-gradient(45deg, rgba(240, 233, 109, 0.6705882353) 0, rgba(240, 233, 109, 0.6705882353) 1.5px, rgba(244, 244, 244, 0.8) 0, rgba(244, 244, 244, 0.8) 50%);
   border-radius: 50px;
-  -webkit-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-          box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  -webkit-transform: skew(5deg, 3deg);
-          transform: skew(5deg, 3deg);
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  transform: skew(5deg, 3deg);
   max-width: 1140px;
   width: 80%;
-  -webkit-transition: all .5s ease-in;
-  transition: all .5s ease-in;
-  font-family: freightdisp,serif;
+  transition: all 0.5s ease-in;
+  font-family: freightdisp, serif;
   font-weight: 300;
 }
-
 @media (max-width: 576px) {
   .convegno-scuola-creativa .citazione {
     width: 100%;
   }
 }
-
 .convegno-scuola-creativa .citazione div {
-  -webkit-transform: skew(-5deg, -3deg) translateY(10px);
-          transform: skew(-5deg, -3deg) translateY(10px);
+  transform: skew(-5deg, -3deg) translateY(10px);
   padding: 2rem;
 }
-
 .convegno-scuola-creativa .bus {
   max-width: 200px;
   width: 13%;
@@ -146,16 +113,13 @@ body::after {
   right: 0;
   position: absolute;
 }
-
 .convegno-scuola-creativa .simple-highlight {
   background-color: #f0e96d;
   padding: 0.1em 0.2em;
 }
-
 .convegno-scuola-creativa .sketch-highlight {
   position: relative;
 }
-
 .convegno-scuola-creativa .sketch-highlight:before {
   content: "";
   z-index: 0;
@@ -169,16 +133,13 @@ body::after {
   border-right-color: transparent;
   width: 100%;
   height: 1.4em;
-  -webkit-transform: rotate(2deg);
   transform: rotate(2deg);
   opacity: 0.6;
   border-radius: 0.25em;
 }
-
 .convegno-scuola-creativa .circle-sketch-highlight {
   position: relative;
 }
-
 .convegno-scuola-creativa .circle-sketch-highlight:before {
   content: "";
   z-index: -1;
@@ -192,13 +153,11 @@ body::after {
   border-right-color: transparent;
   width: 100%;
   height: 1.5em;
-  -webkit-transform: rotate(2deg);
   transform: rotate(2deg);
   opacity: 0.3;
   border-radius: 50%;
   padding: 0.1em 0.25em;
 }
-
 .convegno-scuola-creativa .circle-sketch-highlight:after {
   content: "";
   z-index: -1;
@@ -213,12 +172,10 @@ body::after {
   position: absolute;
   width: 100%;
   height: 1.5em;
-  -webkit-transform: rotate(-1deg);
-          transform: rotate(-1deg);
+  transform: rotate(-1deg);
   opacity: 0.3;
   border-radius: 50%;
 }
-
 .convegno-scuola-creativa .nuvole {
   position: absolute;
   height: 100vh;
@@ -228,52 +185,42 @@ body::after {
   right: 0;
   margin: 0 auto;
 }
-
 .convegno-scuola-creativa .nuvole img {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 180px;
   width: 20%;
 }
-
 .convegno-scuola-creativa .nuvole img:nth-child(1) {
   right: 20%;
 }
-
 @media (min-width: 767.98px) {
   .convegno-scuola-creativa .nuvole img:nth-child(1) {
     top: -50px;
     right: 25%;
   }
 }
-
 @media (min-width: 991.98px) {
   .convegno-scuola-creativa .nuvole img:nth-child(1) {
     top: -40px;
   }
 }
-
 @media (min-width: 1199.98px) {
   .convegno-scuola-creativa .nuvole img:nth-child(1) {
     top: -30px;
     right: 15%;
   }
 }
-
 .convegno-scuola-creativa .nuvole img:nth-child(2) {
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
   right: 0%;
 }
-
 @media (min-width: 767.98px) {
   .convegno-scuola-creativa .nuvole img:nth-child(2) {
     top: -100px;
   }
 }
-
 .convegno-scuola-creativa .img-fixed {
   position: fixed;
   height: 100vh;
@@ -281,123 +228,96 @@ body::after {
   top: 0;
   left: 0;
 }
-
 .convegno-scuola-creativa .img-fixed img {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 250px;
 }
-
 .convegno-scuola-creativa .img-fixed img:nth-child(1) {
   top: 29%;
   left: 53%;
   mix-blend-mode: multiply;
 }
-
 .convegno-scuola-creativa .img-fixed img:nth-child(2) {
-  -webkit-animation-delay: .6s;
-          animation-delay: .6s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
   top: 65%;
   left: 35%;
   opacity: 35%;
 }
-
 .convegno-scuola-creativa .img-fixed img:nth-child(3) {
   top: 86%;
   left: 80%;
 }
-
 .convegno-scuola-creativa .img-fixed img:nth-child(4) {
-  -webkit-animation-delay: .3s;
-          animation-delay: .3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
   top: 25%;
   left: 12%;
   width: 20%;
-  opacity: .5;
+  opacity: 0.5;
 }
-
 .convegno-scuola-creativa .temi {
   list-style: none;
   padding-left: 8rem;
 }
-
 @media (max-width: 576px) {
   .convegno-scuola-creativa .temi {
     padding-left: 1.8rem;
   }
 }
-
 .convegno-scuola-creativa .temi li {
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-
 .convegno-scuola-creativa .temi li:before {
   background-image: url("https://erickson-learn-resources.s3.amazonaws.com/production/event/Scuola-creativa-21/Img/Grafiche/Freccia.png");
-  content: ' ';
+  content: " ";
   width: 100px;
   height: 100px;
   position: absolute;
   background-size: contain;
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
+  transform: translateY(10px);
   background-repeat: no-repeat;
   left: 0.8%;
 }
-
 @media (max-width: 576px) {
   .convegno-scuola-creativa .temi li:before {
     left: -25%;
-    -webkit-transform: translateY(3px);
-            transform: translateY(3px);
+    transform: translateY(3px);
   }
 }
-
 .convegno-scuola-creativa .temi li:hover {
-  text-shadow: 0 0 .75px #333, 0 0 .75px #333;
+  text-shadow: 0 0 0.75px #333, 0 0 0.75px #333;
 }
-
 .convegno-scuola-creativa .coord-scientifico {
   max-width: 380px;
   margin: 0 auto;
 }
-
 .convegno-scuola-creativa .coord-scientifico h5, .convegno-scuola-creativa .coord-scientifico p {
-  -webkit-transform: skewY(-8deg);
-          transform: skewY(-8deg);
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
+  transform: skewY(-8deg);
+  transition: all 0.2s ease-in;
   margin-top: 10px;
 }
-
 @media (min-width: 767.98px) {
   .convegno-scuola-creativa .coord-scientifico:hover h5, .convegno-scuola-creativa .coord-scientifico:hover p {
-    -webkit-transform: skewY(0deg);
-            transform: skewY(0deg);
+    transform: skewY(0deg);
     letter-spacing: 0.05em;
   }
 }
-
 @media (max-width: 576px) {
   .convegno-scuola-creativa .coord-scientifico {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
   }
 }
-
 .convegno-scuola-creativa .relatori img {
   max-width: 200px;
   width: 100%;
 }
-
 @media (max-width: 576px) {
   .convegno-scuola-creativa .relatori img {
     width: 75%;
   }
 }
-
 .convegno-scuola-creativa .float {
   -webkit-animation-name: Floating;
           animation-name: Floating;
@@ -408,51 +328,39 @@ body::after {
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
 }
-
 @-webkit-keyframes Floating {
   from {
-    -webkit-transform: translate(0, 0px);
-            transform: translate(0, 0px);
+    transform: translate(0, 0px);
   }
   65% {
-    -webkit-transform: translate(0, 20px);
-            transform: translate(0, 20px);
+    transform: translate(0, 20px);
   }
   to {
-    -webkit-transform: translate(0, 0px);
-            transform: translate(0, 0px);
+    transform: translate(0, 0px);
   }
 }
-
 @keyframes Floating {
   from {
-    -webkit-transform: translate(0, 0px);
-            transform: translate(0, 0px);
+    transform: translate(0, 0px);
   }
   65% {
-    -webkit-transform: translate(0, 20px);
-            transform: translate(0, 20px);
+    transform: translate(0, 20px);
   }
   to {
-    -webkit-transform: translate(0, 0px);
-            transform: translate(0, 0px);
+    transform: translate(0, 0px);
   }
 }
-
 .convegno-scuola-creativa .p-b {
   padding-bottom: 2rem;
 }
-
 @media (max-width: 576px) {
   .convegno-scuola-creativa .p-b {
     padding-bottom: 1rem;
   }
 }
-
 .convegno-scuola-creativa .p-t {
   padding-top: 2rem;
 }
-
 @media (max-width: 576px) {
   .convegno-scuola-creativa .p-t {
     padding-top: 1rem;
@@ -462,5 +370,4 @@ body::after {
 .btn.btn-primary,
 .btn.btn-secondary {
   border-radius: 50px;
-}
-/*# sourceMappingURL=stile-custom_convegno.css.map */
+}/*# sourceMappingURL=stile-custom_convegno.css.map */
