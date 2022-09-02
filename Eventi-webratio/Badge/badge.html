@@ -1,0 +1,127 @@
+<title></title>
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet" />
+<style type="text/css">
+    @media print and (width: 210mm) and (height: 297mm) {
+        @page {
+            margin: 0cm;
+            size: 210mm 297mm;
+        }
+    }
+
+    body {
+        height: 297mm;
+        width: 210mm;
+        margin: 0 auto;
+        padding: 0;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+
+    }
+
+
+    #container {
+        height: 297mm;
+        width: 210mm;
+        background-image: url(https://erickson-learn-resources.s3.amazonaws.com/production/event/convegno_qualita_21/Img/Badge/BADGE-Convegno-Q-2021_Partecipante.jpg);
+        background-size: cover;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .testo {
+        height: auto;
+        width: 85mm;
+        line-height: 6mm;
+        font-size: 6mm;
+        position: relative;
+        margin-left: 112mm;
+        text-align: center;
+
+    }
+
+    #relatore {
+        top: 5mm;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    #date {
+        font-size: 2.5mm;
+        width: 100%;
+        text-align: center;
+        top: 79mm;
+        width: 74mm;
+        position: relative;
+        margin-left: 125mm;
+    }
+
+    #date p {
+        margin: 0mm;
+        padding: 0mm;
+        line-height: 3mm;
+    }
+
+    #date p b {
+        font-weight: bold;
+    }
+
+    #nome {
+        top: 74mm;
+        left: 6mm;
+        color: #333;
+    }
+
+    #cognome {
+        top: 75mm;
+        left: 6mm;
+        color: #333;
+    }
+
+    .box-code {}
+
+    #qr {
+        top: 83mm;
+        line-height: 6mm;
+        position: relative;
+        margin-left: 58mm;
+        text-align: center;
+    }
+
+    #qr img {
+        height: 18mm;
+        width: 18mm;
+    }
+
+    #barcode {
+        top: 63mm;
+        position: relative;
+        margin-left: 138mm;
+        text-align: center;
+        background: transparent;
+    }
+
+    #barcode img {
+        position: relative;
+        height: 23mm;
+        width: 56.5mm;
+        left: 0;
+        background: transparent;
+    }
+</style>
+<div id="container">
+    <div class="testo" id="nome">$$nome$$</div>
+
+    <div class="testo" id="cognome">$$cognome$$</div>
+
+    <div id="date">
+        <p><b>Venerd&igrave; 12 novembre:</b> 9.00-13.30 e 15.00-18.30</p>
+
+        <p><b>Sabato 13 novembre:</b> 9.00-13.30 e 15.00-18.30</p>
+
+        <p><b>Domenica 14 novembre:</b> 9.00-12.00</p>
+    </div>
+
+    <div id="qr"><img src="$$QRCode$$" /></div>
+
+    <div id="barcode"><img src="$$barCode$$" /></div>
+</div>
