@@ -1,19 +1,19 @@
 # Archivio File
 
 
-**Dove sono salvati i libri?**
+## **Dove sono salvati i libri?**
 
 - smb://fs/PROJ/PROJ_DEF/Prodotti-editoriali/Libri
 
 
 
-**Dove sono salvati i giochi?**
+## **Dove sono salvati i giochi?**
 
 - smb://fs/PROJ/PROJ_DEF/Prodotti-editoriali/Giochi
 
 
 
-**Dove sono salvati le riviste?**
+## **Dove sono salvati le riviste?**
 
 - smb://fs/PROJ/PROJ_DEF/Prodotti-editoriali/Riviste
 
@@ -21,7 +21,7 @@ All’interno dei progetti editoriali è sempre presente una cartella “Promo�
 
 
 
-**Dove sono archiviati i progetti relativi al marketing?**
+## **Dove sono archiviati i progetti relativi al marketing?**
 
 - smb://fs/PROJ/PROJ_MKT/Marketing/WEB
 
@@ -31,7 +31,7 @@ Es: smb://fs/PROJ/PROJ_MKT/Marketing/WEB/2022/44 gatti – LP e file: **1460x
 
 
 
-**Dove viene archiviato Mondo Erickson?**
+## **Dove viene archiviato Mondo Erickson?**
 
 - smb://fs/PROJ/PROJ_WIP/Mondo-Erickson
 
@@ -41,7 +41,7 @@ Gli Appuntamenti in smb://fs/PROJ/PROJ_WIP/Mondo-Erickson/Appuntamenti
 
 
 
-**Dove viene archiviata la formazione?**
+## **Dove viene archiviata la formazione?**
 
 - smb://fs/PROJ/PROJ_MKT/Formazione
 
@@ -54,10 +54,10 @@ All’interno della cartella formazione troverai una suddivisione per tipologia:
 Di seguito alcuni template realizzati (potrebbero non esser aggiornati)
 
 
-**Template per Kit, Landing page e Mondo Erickson:**
+## **Template per Kit, Landing page e Mondo Erickson:**
 
 - smb://fs/PROJ/PROJ_MKT/Marketing/WEB/2022/__Banner-Template
 
-**Template formazione:**
+## **Template formazione:**
 
 - smb://fs/PROJ/PROJ_MKT/Formazione/_Master-Grafica_formazione/2021/Master_formazione_21.indd
