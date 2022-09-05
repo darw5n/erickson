@@ -1,4 +1,4 @@
-#Guida Badge
+# Guida Badge
 
 - Dove aver fatto il login sulla piattaforma webratio, selezionate **gestione testi per due volte** dal menu laterale.
 - Poi **selezionate il convegno** di riferimento dal drop-down menu, si trova al di sotto della label "Evento".
