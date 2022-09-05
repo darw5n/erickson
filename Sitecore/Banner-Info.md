@@ -75,3 +75,21 @@ I banner di III livello sono di 4 tipologie, A (100% contenitore), B (50% conten
 - TAB: 384x400px
 - MOB: 400x200px
 
+
+
+## Banner Landing 
+
+- Solitamente per le landing andiamo a realizzare questi formati:
+  - Teaser (opzionale)
+  - BannerIII A, in due versioni, con e senza CTA, così da poterlo utilizzare come banner header nella landing di riferimento e la versione con cta in chiusura di altre landing.
+  - BannerII
+  - Banner Dem
+  - Facebook
+  
+- Questi media vengono archiviati in questa cartella:
+  - /sitecore/media library/Storefront/LP_Approfondimenti **/nome-lp**
+- I Banner invece qui:
+  - /sitecore/content/Storefront/Global/BannerIII/LP_approfondimento **/nome-lp** (per quelli di 3 livello)
+  - /sitecore/content/Storefront/Global/BannerII/LP **/nome-lp** (per quelli di 2 livello)
+
+- Il carosello poi si troverà all'interno della landing page creata.
