@@ -88,8 +88,11 @@ I banner di III livello sono di 4 tipologie, A (100% contenitore), B (50% conten
   
 - Questi media vengono archiviati in questa cartella:
   - /sitecore/media library/Storefront/LP_Approfondimenti **/nome-lp**
-- I Banner invece qui:
+- I Banner di II e III livello vengono creati qui:
   - /sitecore/content/Storefront/Global/BannerIII/LP_approfondimento **/nome-lp** (per quelli di 3 livello)
   - /sitecore/content/Storefront/Global/BannerII/LP **/nome-lp** (per quelli di 2 livello)
+  - Il carosello poi si troverà all'interno della landing page creata.
 
-- Il carosello poi si troverà all'interno della landing page creata.
+- I Teaser si differenziano dal resto dei banner lp e vengono archiviati e creati qui (come tutti i teaser):
+  - /sitecore/media library/Storefront/TEASER_carousel
+  - /sitecore/content/Storefront/Global/Teasers/Carousels Datasources
